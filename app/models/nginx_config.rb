@@ -11,6 +11,7 @@ class NginxConfig < ActiveRecord::Base
     <<HERE
 server{
   listen 80;
+  listen [::]:80;
   server_name #{server_name};
   index index.html;
   root #{root};
