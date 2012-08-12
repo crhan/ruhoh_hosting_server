@@ -31,5 +31,6 @@ class BlogsController < ApplicationController
         end
       end
     end
+    `sudo /usr/local/nginx/sbin/nginx -s reload`
   end
 end
