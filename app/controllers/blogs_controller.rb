@@ -32,5 +32,7 @@ class BlogsController < ApplicationController
       end
     end
     `sudo /usr/local/nginx/sbin/nginx -s reload`
+
+    render :nothing => true, :status => 204
   end
 end
