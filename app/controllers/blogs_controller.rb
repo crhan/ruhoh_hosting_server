@@ -20,7 +20,6 @@ class BlogsController < ApplicationController
       Dir.chdir dir do
         g = Git.clone repo.url, repo.name
         Dir.chdir repo.name do
-          binding.pry
           Ruhoh::Client.new({
             :args => [ "compile", repo.target_dir ],
             :options => Options.new
