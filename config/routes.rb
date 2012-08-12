@@ -1,5 +1,5 @@
 RuhohHosting::Application.routes.draw do
-  match 'ruhoh' => 'blogs#compile'
+  post 'ruhoh' => 'blogs#compile'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
