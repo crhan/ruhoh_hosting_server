@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  server_name: MyString
+  root: MyString
+
+two:
+  server_name: MyString
+  root: MyString

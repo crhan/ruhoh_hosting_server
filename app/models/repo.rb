@@ -1,8 +1,9 @@
 class Repo < ActiveRecord::Base
   attr_accessible :homepage, :name, :url
+  has_one :nginx_config
 
   def target_dir
-    File.join(Dir.tmpdir, publish_url)
+    Rails.root.join("blogs", publish_url)
   end
 
   def publish_url

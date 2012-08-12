@@ -15,6 +15,10 @@ class BlogsController < ApplicationController
     repo = Repo.find_or_create_by_name(repo_name)
     repo.url, repo.homepage = repo_url, repo_homepage
     repo.save
+    nginx_config = NginxConfig.find_or_create_by_server_name(repo.publish_url)
+    nginx_config.repo = repo
+    nginx_config.save
+    nginx_config.write
 
     Dir.mktmpdir do |dir|
       Dir.chdir dir do
