@@ -8,13 +8,13 @@
 
 ## 第二步
 
-添加 [http://linode.crhan.com:3000/ruhoh][5] 到 [WebHooks][]
+添加 [http://ruhoh.crhan.com/update][5] 到 [WebHooks][]
 
 ![][2]
 
 ## 第三步
 
-添加目标域名的 A 记录到 `173.255.218.208`, AAAA 记录到 `2600:3c01::f03c:91ff:feae:6ad0`
+添加目标域名的 CNAME 记录到 `ruhoh.crhan.com`
 
 ## 第四步
 
@@ -23,11 +23,14 @@
 ![][3]
 
 [WebHooks]: https://help.github.com/articles/post-receive-hooks
-[1]: https://raw.github.com/crhan/ruhoh_hosting_server/2bb6499978a8db472ab7684e45d8fc949fa65bb2/public/add_homepage.png
-[2]: https://raw.github.com/crhan/ruhoh_hosting_server/2bb6499978a8db472ab7684e45d8fc949fa65bb2/public/add_hook.png
-[3]: https://raw.github.com/crhan/ruhoh_hosting_server/2bb6499978a8db472ab7684e45d8fc949fa65bb2/public/test_hook.png
-[4]: blog.crhan.com
-[5]: http://linode.crhan.com:3000/ruhoh
+[1]:
+https://raw.github.com/crhan/ruhoh_hosting_server/master/public/add_homepage.png
+[2]:
+https://raw.github.com/crhan/ruhoh_hosting_server/master/public/add_hook.png
+[3]:
+https://raw.github.com/crhan/ruhoh_hosting_server/master/public/test_hook.png
+[4]: http://blog.crhan.com
+[5]: http://ruhoh.crhan.com/update
 
 ----
 
@@ -42,13 +45,13 @@ it is [blog.crhan.com][]
 
 ## Second
 
-Adding [WebHooks][] http://linode.crhan.com:3000/ruhoh to your repo
+Adding [WebHooks][] http://ruhoh.crhan.com/update to your repo
 
 ![][2]
 
 ## Third
 
-Point your domain's A record to `173.255.218.208`, and AAAA record `2600:3c01::f03c:91ff:feae:6ad0` (only if you want to support ipv6)
+Point your domain's A record to `ruhoh.crhan.com`
 
 ## Last
 
