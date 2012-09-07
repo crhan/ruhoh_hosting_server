@@ -1,3 +1,7 @@
+提供基于 [Ruhoh][] 的免费博客托管服务
+
+[Ruhoh]: http://ruhoh.com
+
 # 试用本服务四步走
 
 ## 第一步
@@ -39,7 +43,7 @@ https://raw.github.com/crhan/ruhoh_hosting_server/master/public/test_hook.png
 ## First
 
 Make repo's homepage to the target domain name of your blog. For myself,
-it is [blog.crhan.com][]
+it is [blog.crhan.com][4]
 
 ![][1]
 
@@ -51,11 +55,10 @@ Adding [WebHooks][] http://ruhoh.crhan.com/update to your repo
 
 ## Third
 
-Point your domain's A record to `ruhoh.crhan.com`
+Point your domain's CNAME to `ruhoh.crhan.com`
 
 ## Last
 
 Make a webhook test or make a push action to your repo.
 
 ![][3]
-
